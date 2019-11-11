@@ -8,6 +8,7 @@
 <link rel="stylesheet" type="text/css" href="styles/styles.css"/>
 <link rel="stylesheet" type="text/css" href="styles/table.css"/>
 <link rel="stylesheet" type="text/css" href="styles/search.css"/>
+<link rel="stylesheet" type="text/css" href="styles/button.css"/>
 
 </head>
 <body>
@@ -17,44 +18,45 @@
 	<a  href="#"> Entrar</a>
  	<a  href="#">Cadastrar</a>
  	</div>-->
-  <h1>Lorem Ipsum</h1>
+  <a class="logo" href="Telaprincipal.html"><h1>Lorem Ipsum</h1></a>
   
 </div>
 
 <div class="row">
   <div class="col-3 col-s-3 menu">
-    <ul>
+     <ul>
 	<li class="dropdown">
-    <a href="" class="dropbtn">Cadastro</a>
+    <a href="" class="dropbtn">Catálogo</a>
     <div class="dropdown-content">
-      <a href="Produto.html">Produto</a>
-	  <a href="Serviço.html">Serviço</a>
-      <a href="Cliente.html">Cliente</a>
-      <a href="Fornecedor.html">Fornecedor</a>
+       <a href="Produto.html">Produto</a>
+	  <a href="Serviços.html">Serviço</a>
+      
     </div>
   </li>
   <li class="dropdown">
     <a href="" class="dropbtn">Vendas</a>
     <div class="dropdown-content">
-	  <a href="#">PDV</a>
-      <a href="#">Orçamento</a>
-      <a href="#">Pedidos</a>      
-    </div>
+	  <a href="pdv.html">PDV</a>
+      <a href="Clientes.html">Clientes</a>
+      </div>
   </li>
    <li class="dropdown">
     <a href="" class="dropbtn">Compras</a>
     <div class="dropdown-content">
-	  <a href="#">Compras</a>
-      <a href="#">Orçamento</a>
-      <a href="#">Pedidos</a>      
+	  <a href="Compras.html">Compras</a>
+      <a href="Fornecedores.html">Fornecedores</a>
+         
     </div>
   </li>
   
+  <!--<a href="#">Relatórios</a>-->
+  
    <li class="dropdown">
-    <a href="" class="dropbtn">Dropdown</a>
+    <a href="" class="dropbtn">Configurações</a>
     <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
+      <a href="mei.html">Minha Empresa</a>
+	  <a href="Funcionario.html">Funcionário</a>
+      <a href="Usuarios.html">Usuários</a>
       <a href="#">Link 3</a>
     </div>
   </li>
@@ -63,11 +65,14 @@
 
   <div class="col-6 col-s-9">
   <h1>Produto</h1>
-    
+
+ <a href="CadProduto.html" class="button"><b>+ Adicionar</b></a>
+ <button type="submit" class="button"><b>Editar</b></button>  
+ <button type="submit" class="button"><b>Deletar</b></button>   
 
 <form class="example" action="/action_page.php">
   <input type="text" placeholder="Search.." name="search">
-   <button type="submit"><i class="fa fa-search"></i></button> 
+   <button type="submit"><b>pesquisar</b></button>  
  
 </form><br>
 
@@ -78,8 +83,7 @@
 	 <th>Código</th>
     <th>Descrição</th>
     <th>Valor</th>
-    <th>Estoque</th>
-	 <th>Ações</th>
+  
   </tr>
   <tr>
     <td>Alfreds Futterkiste</td>
@@ -136,8 +140,8 @@
 </table>
 
 
-     <h1>The City</h1>
-    <p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p><br>
+
+    <p>O cadastro de produto traz eficiência na apuração dos dados, diminuindo erros e falhas no controle, e traz também agilidade, na hora da Venda. </p><br>
   </div>
 
   <!--<div class="col-3 col-s-12">

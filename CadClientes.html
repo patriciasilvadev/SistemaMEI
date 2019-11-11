@@ -1,0 +1,188 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="styles/styles.css"/>
+
+<link rel="stylesheet" type="text/css" href="styles/forms.css"/>
+</head>
+<body>
+
+<div class="header">
+	<!--<div class="conexao">
+	<a  href="#"> Entrar</a>
+ 	<a  href="#">Cadastrar</a>
+ 	</div>-->
+  <a class="logo" href="Telaprincipal.html"><h1>Lorem Ipsum</h1></a>
+  
+</div>
+
+<div class="row">
+  <div class="col-3 col-s-3 menu">
+     <ul>
+	<li class="dropdown">
+    <a href="" class="dropbtn">Catálogo</a>
+    <div class="dropdown-content">
+       <a href="Produto.html">Produto</a>
+	  <a href="Serviços.html">Serviço</a>
+      
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="" class="dropbtn">Vendas</a>
+    <div class="dropdown-content">
+	  <a href="pdv.html">PDV</a>
+      <a href="Clientes.html">Clientes</a>
+      </div>
+  </li>
+   <li class="dropdown">
+    <a href="" class="dropbtn">Compras</a>
+    <div class="dropdown-content">
+	  <a href="Compras.html">Compras</a>
+      <a href="Fornecedores.html">Fornecedores</a>
+         
+    </div>
+  </li>
+  
+  <!--<a href="#">Relatórios</a>-->
+  
+   <li class="dropdown">
+    <a href="" class="dropbtn">Configurações</a>
+    <div class="dropdown-content">
+      <a href="mei.html">Minha Empresa</a>
+	  <a href="Funcionario.html">Funcionário</a>
+      <a href="Usuarios.html">Usuários</a>
+      <a href="#">Link 3</a>
+    </div>
+  </li>
+</ul>
+  </div>
+
+  <div class="col-6 col-s-9">
+    <h1>Cadastro de Clientes</h1>
+
+   <form action="/action_page.php">
+  <div class="container">
+  
+    <h2>Dados Gerais</h2>
+	<hr>
+	<label for="codigoCliente"><b>Código do Cliente</b></label>
+    <input type="text" placeholder="" name="codigoCliente" required>
+	
+    <label for="nome_razaoSocial"><b>Nome / Razão Social</b></label>
+    <input type="text" placeholder="" name="nome_razaoSocial" required>
+	
+	<label for="email"><b>CPF / CNPJ</b></label>
+    <input type="text" placeholder="" name="email" required>
+	
+	<label for="rg"><b>RG</b></label>
+    <input type="text" placeholder="" name="rg" required>
+	
+	 <label for="sexo"><b>Sexo</b></label>
+    <select name="sexo">
+      <option value="feminino">Feminino</option>
+      <option value="masculino">Masculino</option>
+	    <option value="empresa">Empresa</option>
+     
+    </select><br><br>
+	
+	<label for="nomeMae"><b>Nome da Mãe</b></label>
+    <input type="text" placeholder="" name="nomeMae" required>
+	
+	<label for="nomePai"><b>Nome do Pai</b></label>
+    <input type="text" placeholder="" name="nomePai" required>
+	
+	
+	<h2>Endereço</h2>
+	<hr>
+	<label for="lorgradouro"><b>Lorgradouro</b></label>
+    <input type="text" placeholder="" name="lorgradouro" required>
+	
+     <label for="numero"><b>Número</b></label>
+    <input type="text" placeholder="" name="numero" required>
+	
+	<label for="cep"><b>CEP</b></label>
+    <input type="text" placeholder="" name="cep" required>
+	
+	<label for="bairro"><b>Bairro</b></label>
+    <input type="text" placeholder="" name="bairro" required>
+	
+	<label for="cidade"><b>Cidade</b></label>
+    <input type="text" placeholder="" name="numero" required>
+	
+	 <label for="uf"><b>UF</b></label>
+  <select name="estados-brasil">
+	<option value="AC">AC</option>
+	<option value="AL">AL</option>
+	<option value="AP">AP</option>
+	<option value="AM">AM</option>
+	<option value="BA">BA</option>
+	<option value="CE">CE</option>
+	<option value="DF">DF</option>
+	<option value="ES">ES</option>
+	<option value="GO">GO</option>
+	<option value="MA">MA</option>
+	<option value="MT">MT</option>
+	<option value="MS">MS</option>
+	<option value="MG">MG</option>
+	<option value="PA">PA</option>
+	<option value="PB">PB</option>
+	<option value="PR">PR</option>
+	<option value="PE">PE</option>
+	<option value="PI">PI</option>
+	<option value="RJ">RJ</option>
+	<option value="RN">RN</option>
+	<option value="RS">RS</option>
+	<option value="RO">RO</option>
+	<option value="RR">RR</option>
+	<option value="SC">SC</option>
+	<option value="SP">SP</option>
+	<option value="SE">SE</option>
+	<option value="TO">TO</option>
+</select>
+	
+	<h2>Contato</h2>
+	<hr>
+	<label for="email"><b>E-mail</b></label>
+    <input type="text" placeholder="" name="email" required>
+    <label for="telefoneFixo"><b>Telefone</b></label>
+    <input type="text" placeholder="" name="telefoneFixo" required>
+	<label for="celular"><b>Celular</b></label>
+    <input type="text" placeholder="" name="celular" required>
+	<hr>
+	
+	 <label for="observacoes"><b>Observações</b></label>
+    <textarea id="subject" name="observacoes" placeholder="" style="height:200px"></textarea>
+
+       <button type="submit" class="registerbtn">Salvar</button>
+  </div>
+  
+ 
+</form>
+
+
+         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p><br>
+
+  </div>
+
+  <!--<div class="col-3 col-s-12">
+    <div class="aside">
+      <h2>What?</h2>
+      <p>Chania is a city on the island of Crete.</p>
+      <h2>Where?</h2>
+      <p>Crete is a Greek island in the Mediterranean Sea.</p>
+      <h2>How?</h2>
+      <p>You can reach Chania airport from all over Europe.</p>
+    </div>
+  </div>-->
+</div>
+
+<div class="footer">
+  <p>Copyright © 2019 Lorem Ipsum</p>
+</div>
+
+</body>
+</html>

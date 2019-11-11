@@ -6,8 +6,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="styles/styles.css"/>
+<link rel="stylesheet" type="text/css" href="styles/table.css"/>
+<link rel="stylesheet" type="text/css" href="styles/search.css"/>
+<link rel="stylesheet" type="text/css" href="styles/button.css"/>
 
-<link rel="stylesheet" type="text/css" href="styles/forms.css"/>
 </head>
 <body>
 
@@ -53,7 +55,7 @@
     <a href="" class="dropbtn">Configurações</a>
     <div class="dropdown-content">
       <a href="mei.html">Minha Empresa</a>
-	 
+	  <a href="Funcionario.html">Funcionário</a>
       <a href="Usuarios.html">Usuários</a>
       <a href="#">Link 3</a>
     </div>
@@ -62,53 +64,39 @@
   </div>
 
   <div class="col-6 col-s-9">
-    <h1>Cadastro de Produto</h1>
+  <h1>Minha Empresa</h1>
 
-   <form action="/action_page.php">
-  <div class="container">
+ <a href="CadMEI.html" class="button"><b>+ Adicionar</b></a>
+ <button type="submit" class="button"><b>Editar</b></button>  
+ <button type="submit" class="button"><b>Deletar</b></button>   
+
+
+
+
+
+    <table id="customers">
+  <tr>
+	 <th>Código</th>
+    <th>Descrição</th>
+    <th>Contato</th>
   
-    <h2>Dados Gerais</h2>
-	<hr>
-	<label for="email"><b>Código do Produto</b></label>
-    <input type="text" placeholder="insira o código do Produto" name="email" required>
-	
-    <label for="email"><b>Nome do Produto</b></label>
-    <input type="text" placeholder="descreva o nome do produto" name="email" required>
-	
-	<label for="email"><b>Unidade</b></label>
-    <input type="text" placeholder="" name="email" required>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
 
-	<label for="email"><b>Observação</b></label>
-    <input type="text" placeholder="insira o código do Produto" name="email" required>
 	
-	<h2>Preço</h2>
-	<hr>
-	<label for="email"><b>Valor de Venda</b></label>
-    <input type="text" placeholder="insira o código do Produto" name="email" required>
-     <label for="email"><b>Valor de Custo</b></label>
-    <input type="text" placeholder="insira o código do Produto" name="email" required>
-	
-	<h2>Estoque</h2>
-	<hr>
-	<label for="email"><b>Estoque Mínimo</b></label>
-    <input type="text" placeholder="insira o código do Produto" name="email" required>
-    <label for="email"><b>Estoque Atual</b></label>
-    <input type="text" placeholder="insira o código do Produto" name="email" required>
-	<hr>
-	
-
-       <button type="submit" class="registerbtn">Salvar</button>
-  </div>
+  </tr>
   
- 
-</form>
+</table>
 
 
-         <p>O cadastro de produto traz eficiência na apuração dos dados, diminuindo erros e falhas no controle, e traz também agilidade, na hora da Venda. </p><br>
 
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p><br>
   </div>
 
-  <!--<div class="col-3 col-s-12">
+  <div class="col-3 col-s-12">
     <div class="aside">
       <h2>What?</h2>
       <p>Chania is a city on the island of Crete.</p>
@@ -117,7 +105,7 @@
       <h2>How?</h2>
       <p>You can reach Chania airport from all over Europe.</p>
     </div>
-  </div>-->
+  </div>
 </div>
 
 <div class="footer">
